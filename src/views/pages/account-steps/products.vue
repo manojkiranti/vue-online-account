@@ -93,7 +93,7 @@
                 </div>
                 <div class="row text-center">
                   <div class="col-6">
-                    <b-button pill variant="primary" @click="applyNow(data.slug)">Apply Now</b-button>
+                    <b-button pill variant="primary" @click="applyNow(data.products)">Apply Now</b-button>
                   </div>
                   <div class="col-6">
                     <b-button @click="viewDetail(index)" pill variant="outline-secondary">View Details</b-button>
